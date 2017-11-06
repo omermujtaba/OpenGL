@@ -11,11 +11,11 @@
 		1779F10D1FB0B17900E3B8AB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1779F10C1FB0B17300E3B8AB /* OpenGL.framework */; };
 		1779F10F1FB0B18800E3B8AB /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1779F10E1FB0B18800E3B8AB /* libGLEW.2.1.0.dylib */; };
 		1779F1111FB0B19500E3B8AB /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1779F1101FB0B19500E3B8AB /* libglfw.3.2.dylib */; };
-		1779F11B1FB0F7E500E3B8AB /* Resources in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1779F1171FB0D2F300E3B8AB /* Resources */; };
 		179E3CCA1FB10B4600680A39 /* image_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 179E3CB51FB10B4600680A39 /* image_helper.c */; };
 		179E3CCB1FB10B4600680A39 /* image_DXT.c in Sources */ = {isa = PBXBuildFile; fileRef = 179E3CB81FB10B4600680A39 /* image_DXT.c */; };
 		179E3CCC1FB10B4600680A39 /* SOIL2.c in Sources */ = {isa = PBXBuildFile; fileRef = 179E3CBB1FB10B4600680A39 /* SOIL2.c */; };
 		179E3CCD1FB10B4600680A39 /* etc1_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 179E3CC51FB10B4600680A39 /* etc1_utils.c */; };
+		179E3CD11FB1143B00680A39 /* res in CopyFiles */ = {isa = PBXBuildFile; fileRef = 179E3CD01FB113F200680A39 /* res */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,7 +34,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				1779F11B1FB0F7E500E3B8AB /* Resources in CopyFiles */,
+				179E3CD11FB1143B00680A39 /* res in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -47,7 +47,6 @@
 		1779F10E1FB0B18800E3B8AB /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
 		1779F1101FB0B19500E3B8AB /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
 		1779F1161FB0D13900E3B8AB /* Shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
-		1779F1171FB0D2F300E3B8AB /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 		179E3CB51FB10B4600680A39 /* image_helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = image_helper.c; sourceTree = "<group>"; };
 		179E3CB61FB10B4600680A39 /* stbi_pkm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_pkm.h; sourceTree = "<group>"; };
 		179E3CB71FB10B4600680A39 /* jo_jpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jo_jpeg.h; sourceTree = "<group>"; };
@@ -69,6 +68,7 @@
 		179E3CC71FB10B4600680A39 /* stbi_pkm_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_pkm_c.h; sourceTree = "<group>"; };
 		179E3CC81FB10B4600680A39 /* stbi_DDS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_DDS.h; sourceTree = "<group>"; };
 		179E3CC91FB10B4600680A39 /* pvr_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pvr_helper.h; sourceTree = "<group>"; };
+		179E3CD01FB113F200680A39 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = "../../../GithubProjects/Modern-OpenGL-Tutorials/[GETTING STARTED]/[3] Textures/res"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +105,8 @@
 		1779F1031FB0B0B200E3B8AB /* OpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				179E3CD01FB113F200680A39 /* res */,
 				179E3CB41FB10B4600680A39 /* SOIL2 */,
-				1779F1171FB0D2F300E3B8AB /* Resources */,
 				1779F1041FB0B0B200E3B8AB /* main.cpp */,
 				1779F1161FB0D13900E3B8AB /* Shader.h */,
 			);

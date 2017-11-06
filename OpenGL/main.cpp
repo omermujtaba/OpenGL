@@ -63,7 +63,7 @@ int main( )
     glBlendFunc( GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA );
     
     // Build and compile our shader program
-    Shader ourShader( "Resources/Shader/core.vs", "Resources/Shader/core.frag" );
+    Shader ourShader( "res/shaders/core.vs", "res/shaders/core.frag" );
     
     // Set up vertex data (and buffer(s)) and attribute pointers
     GLfloat vertices[] =
@@ -122,7 +122,7 @@ int main( )
     glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR );
     glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR );
     // Load, create texture and generate mipmaps
-    unsigned char *image = SOIL_load_image( "Resources/images/image2.png", &width, &height, 0, SOIL_LOAD_RGBA );
+    unsigned char *image = SOIL_load_image( "res/images/image1.jpg", &width, &height, 0, SOIL_LOAD_RGBA );
     glTexImage2D( GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, image );
     glGenerateMipmap( GL_TEXTURE_2D );
     SOIL_free_image_data( image );
