@@ -44,6 +44,7 @@
 		1779F1101FB0B19500E3B8AB /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
 		1779F1161FB0D13900E3B8AB /* Shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
 		1779F1171FB0D2F300E3B8AB /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		1779F11A1FB0D75C00E3B8AB /* SOIL2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SOIL2; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 		1779F1031FB0B0B200E3B8AB /* OpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				1779F11A1FB0D75C00E3B8AB /* SOIL2 */,
 				1779F1171FB0D2F300E3B8AB /* Resources */,
 				1779F1041FB0B0B200E3B8AB /* main.cpp */,
 				1779F1161FB0D13900E3B8AB /* Shader.h */,
