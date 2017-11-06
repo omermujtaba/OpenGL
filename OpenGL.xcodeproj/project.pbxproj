@@ -15,7 +15,7 @@
 		179E3CCB1FB10B4600680A39 /* image_DXT.c in Sources */ = {isa = PBXBuildFile; fileRef = 179E3CB81FB10B4600680A39 /* image_DXT.c */; };
 		179E3CCC1FB10B4600680A39 /* SOIL2.c in Sources */ = {isa = PBXBuildFile; fileRef = 179E3CBB1FB10B4600680A39 /* SOIL2.c */; };
 		179E3CCD1FB10B4600680A39 /* etc1_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 179E3CC51FB10B4600680A39 /* etc1_utils.c */; };
-		179E3CD11FB1143B00680A39 /* res in CopyFiles */ = {isa = PBXBuildFile; fileRef = 179E3CD01FB113F200680A39 /* res */; };
+		179E3CD21FB114BA00680A39 /* res in CopyFiles */ = {isa = PBXBuildFile; fileRef = 179E3CD01FB113F200680A39 /* res */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,7 +34,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				179E3CD11FB1143B00680A39 /* res in CopyFiles */,
+				179E3CD21FB114BA00680A39 /* res in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
