@@ -31,9 +31,8 @@
 		1779F10C1FB0B17300E3B8AB /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		1779F10E1FB0B18800E3B8AB /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
 		1779F1101FB0B19500E3B8AB /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
-		1779F1121FB0C81900E3B8AB /* core.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = core.vs; sourceTree = "<group>"; };
-		1779F1131FB0C97100E3B8AB /* core.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = core.frag; sourceTree = "<group>"; };
-		1779F1141FB0CA9900E3B8AB /* Shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Shader.h; path = ../Shader.h; sourceTree = "<group>"; };
+		1779F1161FB0D13900E3B8AB /* Shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		1779F1171FB0D2F300E3B8AB /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +69,9 @@
 		1779F1031FB0B0B200E3B8AB /* OpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				1779F1171FB0D2F300E3B8AB /* Resources */,
 				1779F1041FB0B0B200E3B8AB /* main.cpp */,
-				1779F1121FB0C81900E3B8AB /* core.vs */,
-				1779F1131FB0C97100E3B8AB /* core.frag */,
-				1779F1141FB0CA9900E3B8AB /* Shader.h */,
+				1779F1161FB0D13900E3B8AB /* Shader.h */,
 			);
 			path = OpenGL;
 			sourceTree = "<group>";
