@@ -11,7 +11,7 @@
 		1779F10D1FB0B17900E3B8AB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1779F10C1FB0B17300E3B8AB /* OpenGL.framework */; };
 		1779F10F1FB0B18800E3B8AB /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1779F10E1FB0B18800E3B8AB /* libGLEW.2.1.0.dylib */; };
 		1779F1111FB0B19500E3B8AB /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1779F1101FB0B19500E3B8AB /* libglfw.3.2.dylib */; };
-		1779F1191FB0D39700E3B8AB /* Resources in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1779F1171FB0D2F300E3B8AB /* Resources */; };
+		1779F11B1FB0F7E500E3B8AB /* Resources in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1779F1171FB0D2F300E3B8AB /* Resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,13 +26,13 @@
 		};
 		1779F1181FB0D38B00E3B8AB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				1779F1191FB0D39700E3B8AB /* Resources in CopyFiles */,
+				1779F11B1FB0F7E500E3B8AB /* Resources in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -270,6 +270,7 @@
 		1779F1091FB0B0B200E3B8AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TK2B9S8R2R;
 				HEADER_SEARCH_PATHS = /usr/local/include;
@@ -285,6 +286,7 @@
 		1779F10A1FB0B0B200E3B8AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TK2B9S8R2R;
 				HEADER_SEARCH_PATHS = /usr/local/include;
