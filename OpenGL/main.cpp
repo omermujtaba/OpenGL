@@ -56,14 +56,15 @@ int main( )
     glViewport( 0, 0, screenWidth, screenHeight );
     
     // Build and compile our shader program
-    Shader ourShader( "core.vs", "core.frag" );
+    Shader ourShader( "resources/shader/core.vs", "resources/shader/core.frag" );
     
     // Set up vertex data (and buffer(s)) and attribute pointers
+    
     GLfloat vertices[] =
     {
         // Positions         // Colors
         0.5f, -0.5f, 0.0f,   1.0f, 0.0f, 0.0f,  // Bottom Right
-        -0.5f, -0.5f, 0.0f,   0.0f, 1.0f, 0.0f,  // Bottom Left
+        -0.5f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f,  // Bottom Left
         0.0f,  0.5f, 0.0f,   0.0f, 0.0f, 1.0f   // Top
     };
     
